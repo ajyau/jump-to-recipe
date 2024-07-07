@@ -1,6 +1,6 @@
 {
 	"manifest_version": 3,
-	"name": "Jump to Recipe",
+	"name": "Jump to Recipe - RecipeTin Eats",
 	"version": "1.0",
 	"description": "Jump straight to recipes on recipetineats.com",
 	"icons": {
