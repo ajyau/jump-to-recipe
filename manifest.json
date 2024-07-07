@@ -2,7 +2,7 @@
 	"manifest_version": 3,
 	"name": "Jump to Recipe",
 	"version": "1.0",
-	"description": "Avoid the fluff at the start of food articles by jumping straight to the recipe.",
+	"description": "Jump straight to recipes on recipetineats.com",
 	"icons": {
 		"16": "images/recipe-book.png",
 		"32": "images/recipe-book.png",
@@ -12,10 +12,7 @@
 	"content_scripts": [
 		{
 			"js": ["scripts/content.js"],
-			"matches": [
-				"https://developer.chrome.com/docs/extensions/*",
-				"https://developer.chrome.com/docs/webstore/*"
-			]
+			"matches": ["https://www.recipetineats.com/*"]
 		}
 	]
 }
